@@ -1,0 +1,33 @@
+{
+  "name": "khalilapi",
+  "version": "1.0.0",
+  "description": "Khalil simulation API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onlypixels/khalilapi.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Tutorial"
+  ],
+  "author": "Ben Pitman",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/onlypixels/khalilapi/issues"
+  },
+  "homepage": "https://github.com/onlypixels/khalilapi#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.2"
+  }
+}

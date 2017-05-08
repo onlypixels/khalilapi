@@ -1,0 +1,33 @@
+{
+	"variables": [],
+	"info": {
+		"name": "KhalilAPI",
+		"_postman_id": "512b9521-a3de-4c72-5b13-0f723e6ea675",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetStressLevel",
+			"request": {
+				"url": "http://localhost:3000/stress",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "ResetStressLevel",
+			"request": {
+				"url": "http://localhost:3000/stress",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
