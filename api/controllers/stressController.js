@@ -26,7 +26,9 @@ exports.get_stress_level = function(req, res) {
       res.send(err);
     //var new_stress
 
-    res.json(stress);
+    res.json({
+      stressLevel: stress.stressLevel,
+      message: stress.message });
 
     stress.stressLevel += 10;
     stress.message = getStressMessage( stress.stressLevel )
@@ -59,6 +61,8 @@ exports.reset_stress_level = function(req, res) {
   stress.save(function(err, stress) {
     if (err)
       res.send(err);
-    res.json(stress);
+    res.json({
+      stressLevel: stress.stressLevel,
+      message: stress.message });
   });
 };
