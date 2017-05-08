@@ -8,5 +8,8 @@ Install MongoDB: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-
 ### Run
 * npm run start
 
-### Mongose docs
+### Initialise
+Initialise the stress service by calling the Reset Stress Level service (POST to /stress)
+
+### Mongoose docs
 http://mongoosejs.com/docs/api.html
